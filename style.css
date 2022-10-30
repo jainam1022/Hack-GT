@@ -1,0 +1,398 @@
+@font-face {
+  font-family: 'neon_sansregular';
+  src: url('../fonts/neonsans-webfont.woff2') format('woff2'),
+    url('../fonts/neonsans-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'exorcist';
+  src: url('/assets/fonts/Exorcist.ttf') format('truetype');
+  font-weight: normal;
+}
+
+body {
+  background-image: url(/assets/images/spiderman.png),
+    url(https://i0.wp.com/mossandfog.com/wp-content/uploads/2019/10/halloween_radio.gif?fit=800%2C600&ssl=1);
+  background-position: left top, center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body .text-muted {
+  width: 850px;
+  margin: 6rem auto 3rem auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 6rem;
+  font-family: 'ITC Benguiat W01';
+  font-weight: 700;
+  color: #1c0502;
+  text-shadow: -0.05rem -0.05rem 1px #ed2b12, 0.05rem -0.05rem 1px #ed2b12,
+    -0.05rem 0.05rem 1px #ed2b12, 0.05rem 0.05rem 1px #ed2b12, 0 0 15px #630100,
+    0 0 20px #450100;
+  letter-spacing: -2px;
+}
+
+.text-muted p {
+  display: inline-block;
+  margin: 5;
+}
+
+.text-muted-bound {
+  box-shadow: -0.05rem -0.05rem 2px #ed2b12, 0.05rem -0.05rem 2px #ed2b12,
+    -0.05rem 0.05rem 2px #ed2b12, 0.05rem 0.05rem 2px #ed2b12;
+  height: 5px;
+}
+
+.text-muted-full {
+  width: 100%;
+  margin: auto;
+  margin-bottom: -1.2rem;
+  max-width: 612px;
+  margin-left: 5px;
+}
+
+.text-mutedmini {
+  margin-top: 0.5rem;
+}
+
+.text-muted-left {
+  float: left;
+  width: 99px;
+  position: relative;
+  left: 5px;
+}
+
+.text-muted-right {
+  float: right;
+  width: 103px;
+  left: 0.3rem;
+  position: relative;
+}
+
+.text-muted-bottom {
+  clear: both;
+  top: -3.75rem;
+  position: relative;
+  left: 0.6rem;
+  letter-spacing: 2px;
+}
+
+.text-muted-drop {
+  line-height: 3px;
+  position: relative;
+  top: 3rem;
+}
+
+.text-muted-R {
+  font-size: 10.5rem;
+  letter-spacing: -8px;
+}
+
+.st-stranger-t {
+  letter-spacing: 0;
+}
+
+.st-stranger-n {
+  letter-spacing: -5px;
+}
+
+.st-stranger-g {
+  letter-spacing: 0;
+}
+
+.st-stranger-r-2 {
+  font-size: 10.5rem;
+  right: 0.2rem;
+}
+
+.st-things-t {
+  font-size: 10%;
+  letter-spacing: 2px;
+}
+
+.st-things-n {
+  letter-spacing: -5px;
+}
+
+.st-things-g {
+  letter-spacing: -3px;
+}
+
+.main-container {
+  background-color: black;
+}
+.jumbotron-fluid {
+  background-color: black;
+}
+.neon {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 5rem;
+  color: #fff;
+  text-shadow: 0 0 20px #ed2b12;
+}
+.neon:after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 20px;
+  z-index: -1;
+  color: #ed2b12;
+  filter: blur(15px);
+}
+
+.neonblue {
+	text-align: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 3rem;
+  color: #fff;
+  text-shadow: 0 0 20px #ed2b12;
+}
+
+
+.retroHorror h3 {
+  text-align: center;
+  color: white;
+}
+.last-seconds {
+  color: red;
+}
+.option {
+  margin: 15px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.horrorImg {
+  position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.horrorImg2 {
+  position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.row {
+  background-color: black;
+  margin: 15px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.lead {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+}
+.text-center {
+  color: white;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.option {
+  color: white;
+  text-align: center;
+}
+#results {
+  color: white;
+  text-align: center;
+}
+
+.begin > span {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+  opacity: 0.15;
+}
+
+.btn {
+  background-color: black;
+  font-size: xx-large;
+}
+#L {
+  opacity: 1;
+  animation: flickerI 3s linear reverse infinite;
+}
+#I {
+  opacity: 1;
+  animation: flickerI 3s linear reverse infinite;
+}
+#G {
+  opacity: 1;
+  animation: flickerI 3s linear reverse infinite;
+}
+#H {
+  opacity: 1;
+  animation: flickerI 3s linear reverse infinite;
+}
+#L::after {
+  content: '';
+  width: 150%;
+  -webkit-box-shadow: -35px 0px 60px 8px rgba(255, 255, 255, 1);
+  -moz-box-shadow: -35px 0px 60px 8px rgba(255, 255, 255, 1);
+  box-shadow: -35px 0px 60px 8px rgba(255, 255, 255, 1);
+}
+#I::after {
+  content: '';
+  width: 150%;
+  -webkit-box-shadow: -35px 0px 60px 8px rgba(255, 255, 255, 1);
+  -moz-box-shadow: -35px 0px 60px 8px rgba(255, 255, 255, 1);
+  box-shadow: -35px 0px 60px 8px rgba(255, 255, 255, 1);
+}
+#G::after {
+  content: '';
+  width: 150%;
+  -webkit-box-shadow: -35px 0px 60px 8px rgba(255, 255, 255, 1);
+  -moz-box-shadow: -35px 0px 60px 8px rgba(255, 255, 255, 1);
+  box-shadow: -35px 0px 60px 8px rgba(255, 255, 255, 1);
+}
+#H::after {
+  content: '';
+  width: 150%;
+  -webkit-box-shadow: -35px 0px 60px 8px rgba(255, 255, 255, 1);
+  -moz-box-shadow: -35px 0px 60px 8px rgba(255, 255, 255, 1);
+  box-shadow: -35px 0px 60px 8px rgba(255, 255, 255, 1);
+}
+
+@keyframes flickerI {
+  0% {
+    opacity: 0.4;
+  }
+  5% {
+    opacity: 0.5;
+  }
+  10% {
+    opacity: 0.6;
+  }
+  15% {
+    opacity: 0.85;
+  }
+  25% {
+    opacity: 0.5;
+  }
+  30% {
+    opacity: 1;
+  }
+  35% {
+    opacity: 0.1;
+  }
+  40% {
+    opacity: 0.25;
+  }
+  45% {
+    opacity: 0.5;
+  }
+  60% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 0.85;
+  }
+  80% {
+    opacity: 0.4;
+  }
+  90% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes flickerLI {
+  0% {
+    opacity: 0.19;
+  }
+  5% {
+    opacity: 0.2;
+  }
+  10% {
+    opacity: 0.25;
+  }
+  15% {
+    opacity: 0.35;
+  }
+  25% {
+    opacity: 0.2;
+  }
+  30% {
+    opacity: 0.4;
+  }
+  35% {
+    opacity: 0.1;
+  }
+  40% {
+    opacity: 0.25;
+  }
+  45% {
+    opacity: 0.2;
+  }
+  60% {
+    opacity: 0.4;
+  }
+  70% {
+    opacity: 0.35;
+  }
+  80% {
+    opacity: 0.4;
+  }
+  90% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0.4;
+  }
+}
+
+@keyframes flickerH {
+  0% {
+    opacity: 0.15;
+  }
+  5% {
+    opacity: 0.2;
+  }
+  10% {
+    opacity: 0.12;
+  }
+  15% {
+    opacity: 0.2;
+  }
+  25% {
+    opacity: 0.15;
+  }
+  30% {
+    opacity: 0.4;
+  }
+  35% {
+    opacity: 0.05;
+  }
+  40% {
+    opacity: 0.12;
+  }
+  45% {
+    opacity: 0.15;
+  }
+  60% {
+    opacity: 0.3;
+  }
+  70% {
+    opacity: 0.2;
+  }
+  80% {
+    opacity: 0.3;
+  }
+  90% {
+    opacity: 0.18;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
